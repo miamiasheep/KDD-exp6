@@ -1,7 +1,7 @@
 ###########################
 ##we are helper functions##
 ###########################
-
+###checking something
 ### READ the data
 saveData<-function(){
   loan<-as.data.frame(fread("../data/train_v2.csv"),header=TRUE,sep=",")
